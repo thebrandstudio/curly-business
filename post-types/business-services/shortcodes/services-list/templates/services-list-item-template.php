@@ -28,7 +28,7 @@ $label = get_post_meta(get_the_ID(), 'business_services_item_label', true);
         </div>
         <div class="mkdf-bsl-item-bottom-holder clearfix">
             <?php if (!empty($description)) : ?>
-                <div class="mkdf-bsl-item-description-holder">
+                <div id="descripcion" class="mkdf-bsl-item-description-holder">
                     <?php echo esc_html($description); ?>
                 </div>
             <?php endif; ?>
