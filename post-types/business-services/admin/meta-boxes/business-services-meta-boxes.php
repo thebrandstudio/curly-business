@@ -14,7 +14,7 @@ if (curly_business_theme_installed() && (curly_business_core_plugin_installed() 
             curly_mkdf_create_meta_box_field(
                 array(
                     'name' => 'business_services_item_price',
-                    'type' => 'textarea',
+                    'type' => 'text',
                     'default_value' => '',
                     'label' => esc_html__('Business Services Item Price', 'curly-business'),
                     'description' => esc_html__('Enter price for this business services item', 'curly-business'),
@@ -28,7 +28,7 @@ if (curly_business_theme_installed() && (curly_business_core_plugin_installed() 
             curly_mkdf_create_meta_box_field(
                 array(
                     'name' => 'business_services_item_description',
-                    'type' => 'text',
+                    'type' => 'textarea',
                     'default_value' => '',
                     'label' => esc_html__('Business Services Item Description', 'curly-business'),
                     'description' => esc_html__('Enter description for this business services item', 'curly-business'),
