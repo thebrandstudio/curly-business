@@ -61,6 +61,15 @@ class BusinessServicesRegister implements Lib\PostTypeInterface
                 'show_in_menu' => true,
                 'menu_position' => $menuPosition,
                 'show_ui' => true,
+                'supports' => array(
+                    'author',
+                    'title',
+                    'editor',
+                    'thumbnail',
+                    'excerpt',
+                    'page-attributes',
+                    'comments'
+                ),
                 'has_archive' => false,
                 'hierarchical' => false,
                 'supports' => array('title', 'thumbnail'),
