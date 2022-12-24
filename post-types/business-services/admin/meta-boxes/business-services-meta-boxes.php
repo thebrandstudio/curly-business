@@ -25,16 +25,6 @@ if (curly_business_theme_installed() && (curly_business_core_plugin_installed() 
                 )
             );
 
-            curly_mkdf_create_meta_box_field(
-                array(
-                    'name' => 'business_services_item_description',
-                    'type' => 'textarea',
-                    'default_value' => '',
-                    'label' => esc_html__('Business Services Item Description', 'curly-business'),
-                    'description' => esc_html__('Enter description for this business services item', 'curly-business'),
-                    'parent' => $business_services_meta_box,
-                )
-            );
 
             curly_mkdf_create_meta_box_field(
                 array(
