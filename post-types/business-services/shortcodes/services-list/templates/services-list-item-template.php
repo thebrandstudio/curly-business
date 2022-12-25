@@ -30,7 +30,7 @@ $value = get_field( "descripcion", get_the_ID() );
         </div>
         <div class="mkdf-bsl-item-bottom-holder clearfix">
             <?php if (!empty($description)) : ?>
-                <div id="descripcion" class="mkdf-bsl-item-description-holder" style="list-style-type: circle;">
+                <div id="descripcion" class="mkdf-bsl-item-description-holder">
                     <p><?php echo $description; ?></p>
                     <p><?php echo $value; ?></p>
                 </div>
@@ -44,3 +44,8 @@ $value = get_field( "descripcion", get_the_ID() );
         </div>
     </div>
 </li>
+<style>
+#descripcion ul {
+    list-style-type: square;
+}
+</style>
