@@ -1,8 +1,7 @@
 <?php
 $price = get_post_meta(get_the_ID(), 'business_services_item_price', true);
-$description = get_post_meta(get_the_ID(), 'business_services_item_description', true);
 $label = get_post_meta(get_the_ID(), 'business_services_item_label', true);
-$value = get_field( "descripcion", get_the_ID() );
+$description = get_field( "descripcion", get_the_ID() );
 
 ?>
 <li class="mkdf-bsl-item clearfix">
@@ -32,7 +31,6 @@ $value = get_field( "descripcion", get_the_ID() );
             <?php if (!empty($description)) : ?>
                 <div id="descripcion" class="mkdf-bsl-item-description-holder">
                     <p><?php echo $description; ?></p>
-                    <p><?php echo $value; ?></p>
                 </div>
             <?php endif; ?>
 
