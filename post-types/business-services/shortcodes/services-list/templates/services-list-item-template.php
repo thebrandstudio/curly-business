@@ -34,10 +34,6 @@ $value = get_field( "descripcion", get_the_ID() );
                     <p><?php echo $description; ?></p>
                     <p><?php echo $value; ?></p>
                 </div>
-                <div id="descripcion" class="">
-                    <p><?php echo esc_html($description); ?></p>
-                    <p><?php echo esc_html($value); ?></p>
-                </div>
             <?php endif; ?>
 
             <?php if (!empty($label)) : ?>
