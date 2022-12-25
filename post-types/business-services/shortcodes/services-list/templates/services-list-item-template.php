@@ -31,12 +31,12 @@ $value = get_field( "descripcion", get_the_ID() );
         <div class="mkdf-bsl-item-bottom-holder clearfix">
             <?php if (!empty($description)) : ?>
                 <div id="descripcion" class="mkdf-bsl-item-description-holder">
+                    <p><?php echo $description; ?></p>
+                    <p><?php echo $value; ?></p>
+                </div>
+                <div id="descripcion" class="">
                     <p><?php echo esc_html($description); ?></p>
                     <p><?php echo esc_html($value); ?></p>
-
-
-
-
                 </div>
             <?php endif; ?>
 
