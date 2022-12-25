@@ -35,7 +35,7 @@ $tiempo = get_field( "tiempo", get_the_ID() );
                 </div>
             <?php endif; ?>
 
-            <?php if (!empty($label)) : ?>
+            <?php if (!empty($tiempo)) : ?>
                 <div class="mkdf-bsl-item-label-holder">
                     <span class="mkdf-bsl-item-label"><?php echo $tiempo; ?></span>
                 </div>
