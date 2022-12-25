@@ -37,7 +37,7 @@ $tiempo = get_field( "tiempo", get_the_ID() );
 
             <?php if (!empty($tiempo)) : ?>
                 <div class="mkdf-bsl-item-description-holder">
-                    <span class="mkdf-bsl-item-label">Tiempo <i class="mkdf-icon-font-awesome fa fa-clock-o mkdf-icon-element"></i>: <?php echo $tiempo; ?></span>
+                    <span class="mkdf-bsl-item-label"><i class="mkdf-icon-font-awesome fa fa-clock-o mkdf-icon-element"></i> Tiempo: <?php echo $tiempo; ?></span>
                 </div>
             <?php endif; ?>
         </div>
